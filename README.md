@@ -1,2 +1,2 @@
 # GWSC-clubs-website
-The official repository for the clubs website of GWSC.
+This is the website for GWSC clubs, as the name would suggest. Live website link to be posted.
