@@ -1,0 +1,19 @@
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: left;
+  background: #002266;
+  color: white;
+  width: 80%;
+  float: right;
+}
+
+footer a, footer a:visited {
+  background-color: none;
+  transition: 100ms all linear 150ms;
+  color: white;
+}
+
+footer a:hover {
+  color: red; /* Not too happy with the color, any suggestions? */
+}
