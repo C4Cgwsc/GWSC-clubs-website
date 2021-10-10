@@ -6,8 +6,8 @@ import './SideBar.css';
 export const SideBar = () => {
   return (
     <div>
-      <p>Test</p>
-      <p>Test 2</p>
+      <p>test</p>
+      <p>test 2</p>
     </div>
   );
 }
