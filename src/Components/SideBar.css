@@ -1,0 +1,10 @@
+a, a:visited {
+  background-color: none;
+  transition: 100ms all linear 150ms;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}

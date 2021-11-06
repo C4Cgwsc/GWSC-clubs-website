@@ -27,3 +27,8 @@ Follow the above steps on installation.
 The main folder that has content is the source (src) folder. You can safely ignore all other folders.
 
 I suggest using the Atom IDE for this project, as you can easily fetch and contribute remotely using their built-in git and Github tools.
+
+
+# Suggestions:
+- Banner
+- Borders around images§

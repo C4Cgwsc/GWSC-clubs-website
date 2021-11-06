@@ -6,8 +6,8 @@ import './SideBar.css';
 export const SideBar = () => {
   return (
     <div>
-      <p>test</p>
-      <p>test 2</p>
+      <h3>Suggested:</h3>
+      <Link to='/clubs/chatforchange'>Chat for Change</Link>
     </div>
   );
 }

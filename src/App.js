@@ -9,7 +9,10 @@ import {Join} from './Components/Pages/Join.js';
 import {ContactUs} from './Components/Pages/ContactUs.js';
 
 // CLubs
-import {ChatForChange} from './Components/Pages/Clubs/ChatForChange.js';
+import {ChatForChange} from './Components/Pages/Clubs/ChatForChange/ChatForChange.js';
+import {ViReal} from './Components/Pages/Clubs/ViReal/ViReal.js';
+import {VolleyballClub} from './Components/Pages/Clubs/VolleyballClub/VolleyballClub.js';
+import {DaReadingClub} from './Components/Pages/Clubs/DaReadingClub/DaReadingClub.js';
 
 // The main App component, which is the entire website
 export const App = () => {
@@ -19,8 +22,12 @@ export const App = () => {
       <Route path='/' component={Home} exact /> {/* Link to Home page */}
       <Route path='/join' component={Join} />
       <Route path='/contact' component={ContactUs} />
-      <Route component={Error} /> {/* In case of 404 error */}
+      {/* Clubs */ }
       <Route path='/clubs/ChatForChange' component={ChatForChange} />
+      <Route path='/clubs/ViReal' component={ViReal} />
+      <Route path='/clubs/VolleyballClub' component={VolleyballClub} />
+      <Route path='/clubs/DaReadingClub' component={DaReadingClub} />
+      <Route component={Error} /> {/* In case of 404 error */}
     </Switch>
   );
 }
