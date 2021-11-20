@@ -16,6 +16,7 @@ import {DaReadingClub} from './Components/Pages/Clubs/DaReadingClub/DaReadingClu
 import {CommunityArtsCouncil} from './Components/Pages/Clubs/CommunityArtsCouncil/CommunityArtsCouncil.js';
 import {ModelUnitedNations} from './Components/Pages/Clubs/ModelUnitedNations/ModelUnitedNations.js';
 import {TeaseSiblings} from './Components/Pages/Clubs/TeaseSiblings/TeaseSiblings.js';
+import {TechCrew} from './Components/Pages/Clubs/TechCrew/TechCrew.js';
 
 
 // The main App component, which is the entire website
@@ -34,6 +35,7 @@ export const App = () => {
       <Route path='/clubs/CommunityArtsCouncil' component={CommunityArtsCouncil} />
       <Route path='/clubs/ModelUnitedNations' component={ModelUnitedNations} />
       <Route path='/clubs/TeaseSiblings' component={TeaseSiblings} />
+      <Route path='/clubs/TechCrew' component={TechCrew} />
       <Route component={Error} /> {/* In case of 404 error */}
     </Switch>
   );
