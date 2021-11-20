@@ -1,7 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-// Styles
-import './Join.css';
 // Components
 import {Header} from '../Header.js';
 import {Footer} from '../Footer.js';
@@ -19,7 +17,7 @@ export const Join = () => {
         </div>
           <main>
             <h1>Check out all of these clubs!</h1>
-            
+
           </main>
       </div>
       <Footer />

@@ -4,9 +4,12 @@ import {Header} from '../../../Header.js';
 import {Footer} from '../../../Footer.js';
 import {NavBar} from '../../../NavBar.js';
 import {SideBar} from '../../../SideBar.js';
-// Logo
-import logo from "../Assets/.jpg";
-import 
+// Logo and other images
+import img1 from "../Assets/CAC_1.JPG";
+import img2 from "../Assets/CAC_2.JPG";
+import img3 from "../Assets/CAC_3.JPG";
+import img4 from "../Assets/CAC_4.JPG";
+import logo from '../Assets/CAC_logo.png';
 
 export const CommunityArtsCouncil = () => {
   return (
@@ -61,12 +64,36 @@ export const CommunityArtsCouncil = () => {
           <br/>
 
           <div className="gallery">
-            <img
-              src={logo}
-              alt=""
-              width='300'
-              height='300'
-            />
+          <img
+            src={logo}
+            alt="Community Arts Council logo"
+            width="300"
+            height='300'
+          />
+          <img
+            src={img1}
+            alt="Community Arts Council activity 1"
+            width='300'
+            height='300'
+          />
+          <img
+            src={img2}
+            alt="Community Arts Council activity 2"
+            width='300'
+            height='300'
+          />
+          <img
+            src={img3}
+            alt="Community Arts Council activity 3"
+            width='300'
+            height='300'
+          />
+          <img
+            src={img4}
+            alt="Community Arts Council activity 4"
+            width='300'
+            height='300'
+          />
           </div>
 
         </main>

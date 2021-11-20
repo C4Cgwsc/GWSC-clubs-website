@@ -9,12 +9,14 @@ main {
   margin-left: 250px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-  height: 200px;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-image {
+  width: 300px;
+  height: 300px;
 }
 
 .content {
@@ -23,7 +25,7 @@ main {
 
 .sidebar {
   position: absolute;
-  height: 70%;
+  height: 70vh;
   width: 20%;
   background-color: #f1f1f1;
 }

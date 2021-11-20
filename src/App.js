@@ -13,6 +13,8 @@ import {ChatForChange} from './Components/Pages/Clubs/ChatForChange/ChatForChang
 import {ViReal} from './Components/Pages/Clubs/ViReal/ViReal.js';
 import {VolleyballClub} from './Components/Pages/Clubs/VolleyballClub/VolleyballClub.js';
 import {DaReadingClub} from './Components/Pages/Clubs/DaReadingClub/DaReadingClub.js';
+import {CommunityArtsCouncil} from './Components/Pages/Clubs/CommunityArtsCouncil/CommunityArtsCouncil.js';
+import {ModelUnitedNations} from './Components/Pages/Clubs/ModelUnitedNations/ModelUnitedNations.js';
 
 // The main App component, which is the entire website
 export const App = () => {
@@ -27,6 +29,8 @@ export const App = () => {
       <Route path='/clubs/ViReal' component={ViReal} />
       <Route path='/clubs/VolleyballClub' component={VolleyballClub} />
       <Route path='/clubs/DaReadingClub' component={DaReadingClub} />
+      <Route path='/clubs/CommunityArtsCouncil' component={CommunityArtsCouncil} />
+      <Route path='/clubs/ModelUnitedNations' component={ModelUnitedNations} />
       <Route component={Error} /> {/* In case of 404 error */}
     </Switch>
   );
