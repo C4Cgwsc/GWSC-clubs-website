@@ -23,7 +23,7 @@ export const ModelUnitedNations = () => {
 
           <h2>What is the objective of the Model United Nations?</h2>
           <p>Model United Nations, also known as Model UN or MUN, is an extra-curricular activity in which students typically roleplay delegates to the United Nations and simulate UN committees. This activity takes place at MUN conferences, which is usually organized by a high school or college MUN club. At the end of most conferences, outstanding delegates in each committee are recognized and given an award certificate; the Best Delegate in each committee, however, receives a gavel.</p>
-          <p>Thousands of middle school, high school, and college students across the country and around the world participate in Model United Nations, which involves substantial researching, public speaking, debating, and writing skills, as well as critical thinking, teamwork, and leadership abilities.</p
+          <p>Thousands of middle school, high school, and college students across the country and around the world participate in Model United Nations, which involves substantial researching, public speaking, debating, and writing skills, as well as critical thinking, teamwork, and leadership abilities.</p>
           <p>Our club aims to allow students to experience what it's like being a delegate for the UN. It promotes the growth of students interpersonal skills as well as their public speaking abilities, diplomacy skills and problem solving skills under pressure.</p>
           <br/>
 

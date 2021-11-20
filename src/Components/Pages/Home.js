@@ -14,6 +14,7 @@ import CAC_logo from './Clubs/Assets/CAC_logo.png';
 import VolleyballClub_logo from './Clubs/Assets/VolleyballClub_logo.png';
 import ViReal_logo from './Clubs/Assets/ViReal_logo.jpg';
 import MUN_logo from './Clubs/Assets/MUN_logo.png';
+import TeaseSiblings_logo from './Clubs/Assets/TeaseSiblings_logo.jpeg';
 
 export const Home = () => {
   return (
@@ -35,8 +36,8 @@ export const Home = () => {
               <Link to='/clubs/CommunityArtsCouncil'><img className="gallery-image" src={CAC_logo} alt="Community Arts Council"/></Link>
               <Link to='/clubs/VolleyballClub'><img className="gallery-image" src={VolleyballClub_logo} alt="Volleyball Club"/></Link>
               <Link to='/clubs/ViReal'><img className="gallery-image" src={ViReal_logo} alt="ViReal"/></Link>
-              <Link><img className="gallery-image"/></Link>
-              <Link><img className="gallery-image"/></Link>
+              <Link to='/clubs/ModelUnitedNations'><img className="gallery-image" src={MUN_logo} alt="Model United Nations"/></Link>
+              <Link to='/clubs/TeaseSiblings'><img className="gallery-image" src={TeaseSiblings_logo} alt="Tease Siblings"/></Link>
               <Link><img className="gallery-image"/></Link>
               <Link><img className="gallery-image"/></Link>
               <Link><img className="gallery-image"/></Link>
