@@ -17,6 +17,7 @@ import MUN_logo from './Clubs/Assets/MUN_logo.png';
 import TeaseSiblings_logo from './Clubs/Assets/TeaseSiblings_logo.jpeg';
 import TechCrew_logo from './Clubs/Assets/TechCrew_logo.jpg'
 import RoboticsClub_logo from './Clubs/Assets/RoboticsClub_logo.png';
+import FCSC_logo from './Clubs/Assets/FCSC_logo.png';
 
 export const Home = () => {
   return (
@@ -42,7 +43,7 @@ export const Home = () => {
               <Link to='/clubs/TeaseSiblings'><img className="gallery-image" src={TeaseSiblings_logo} alt="Tease Siblings"/></Link>
               <Link to='/clubs/TechCrew'><img className="gallery-image" src={TechCrew_logo} alt="Tech Crew"/></Link>
               <Link to='/clubs/RoboticsClub'><img className="gallery-image" src={RoboticsClub_logo} alt="Robotics Club"/></Link>
-              <Link><img className="gallery-image"/></Link>
+              <Link to='/clubs/FCSC'><img className="gallery-image" src={FCSC_logo} alt="Fundraising and Community Services Comittee"/></Link>
               <Link><img className="gallery-image"/></Link>
               <Link><img className="gallery-image"/></Link>
             </div>
