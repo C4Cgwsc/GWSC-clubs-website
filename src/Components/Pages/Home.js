@@ -18,7 +18,8 @@ import TeaseSiblings_logo from './Clubs/Assets/TeaseSiblings_logo.jpeg';
 import TechCrew_logo from './Clubs/Assets/TechCrew_logo.jpg'
 import RoboticsClub_logo from './Clubs/Assets/RoboticsClub_logo.png';
 import FCSC_logo from './Clubs/Assets/FCSC_logo.png';
-import LibraryAmbassadors_logo from './Clubs/Assets/LibraryAmbassadors_logo.tif';
+import LibraryAmbassadors_logo from './Clubs/Assets/LibraryAmbassadors_logo.jpeg';
+import DynamicDanceClub_logo from './Clubs/Assets/DynamicDanceClub_logo.png';
 
 export const Home = () => {
   return (
@@ -33,19 +34,11 @@ export const Home = () => {
             <p>The official GWSC clubs website contains numerous clubs within GWSC to join. Browse through the website, pick a club you like and contact them to join!
             </p>
             <br />
-            <h2>Visit Our Club pages</h2>
+            <h2>Suggested clubs:</h2>
             <div class='gallery'>
               <Link to='/clubs/ChatForChange'><img className="gallery-image" src={ChatForChange_logo} alt="Chat for Change"/></Link>
-              <Link to='/clubs/DaReadingClub'><img className="gallery-image" src={DaReadingClub_logo} alt="Da Reading Club"/></Link>
-              <Link to='/clubs/CommunityArtsCouncil'><img className="gallery-image" src={CAC_logo} alt="Community Arts Council"/></Link>
-              <Link to='/clubs/VolleyballClub'><img className="gallery-image" src={VolleyballClub_logo} alt="Volleyball Club"/></Link>
-              <Link to='/clubs/ViReal'><img className="gallery-image" src={ViReal_logo} alt="ViReal"/></Link>
-              <Link to='/clubs/ModelUnitedNations'><img className="gallery-image" src={MUN_logo} alt="Model United Nations"/></Link>
-              <Link to='/clubs/TeaseSiblings'><img className="gallery-image" src={TeaseSiblings_logo} alt="Tease Siblings"/></Link>
               <Link to='/clubs/TechCrew'><img className="gallery-image" src={TechCrew_logo} alt="Tech Crew"/></Link>
-              <Link to='/clubs/RoboticsClub'><img className="gallery-image" src={RoboticsClub_logo} alt="Robotics Club"/></Link>
               <Link to='/clubs/FCSC'><img className="gallery-image" src={FCSC_logo} alt="Fundraising and Community Services Comittee"/></Link>
-              <Link to='/clubs/LibraryAmbassadors'><img className="gallery-image" src={LibraryAmbassadors_logo} alt="Library Ambassadors"/></Link>
             </div>
           </main>
       </div>
