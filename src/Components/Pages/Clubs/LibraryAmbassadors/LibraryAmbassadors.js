@@ -5,7 +5,7 @@ import {Footer} from '../../../Footer.js';
 import {NavBar} from '../../../NavBar.js';
 import {SideBar} from '../../../SideBar.js';
 // Logo
-import logo from "../Assets/LibraryAmbassadors_logo.tif";
+import logo from "../Assets/LibraryAmbassadors_logo.jpeg";
 
 export const LibraryAmbassadors = () => {
   return (

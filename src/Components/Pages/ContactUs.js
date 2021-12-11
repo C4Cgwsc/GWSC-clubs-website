@@ -19,9 +19,8 @@ export const ContactUs = () => {
         <main>
           <p>This website was brought to you by the Chat for Change web development team.</p>
           <p>If you notice a mistake or have a suggestion reach out to us:</p>
-          <p>Yaseen Ahmed: ahm0028@gwsc.vic.edu.au</p>
-          <p>Ameera Merza: mer0006@gwsc.vic.edu.au</p>
-          <p className="add-space">Nicolas Subastic de Azevdo: sub0017@gwsc.vic.edu.au</p>
+          <p>Yaseen Ahmed: yaseen6607@yahoo.com</p>
+          <p className="add-space">Ameera Merza: mer0006@gwsc.vic.edu.au</p>
         </main>
         </div>
       <Footer />
