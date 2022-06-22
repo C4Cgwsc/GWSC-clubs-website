@@ -1,5 +1,6 @@
 {
   "name": "gwsc-clubs-website",
+  "homepage":"http://C4Cgwsc.github.io/GWSC-clubs-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,10 +14,12 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +41,7 @@
   },
   "packageManager": "yarn@3.1.0",
   "devDependencies": {
-    "eslint-config-react-app": "^6.0.0"
+    "eslint-config-react-app": "^6.0.0",
+    "gh-pages": "^4.0.0"
   }
 }
